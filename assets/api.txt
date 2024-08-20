@@ -1,0 +1,8 @@
+회원가입: /auth/register POST application/json
+{"user_name": "바보", "password": "1234"}
+로그인: /auth/register POST application/json
+{"user_name": "바보", "password": "1234"}
+파트너 등록: /fishing/add_partner POST multipart/form-data
+data:{"partner_name": "partner_name", "partner_email": "partner_name@email.com"} file: 파일.txt
+피싱문자확인: /fishing/determine_fishing POST multipart/form-data 
+data:{"msg": "나 밥 사먹게 3억만."}
